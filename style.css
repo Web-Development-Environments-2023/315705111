@@ -1,7 +1,153 @@
+html {
+	scroll-behavior: smooth;
+}
 #menu
 {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 38px;
+	background: rgba(235, 97, 5, 0.808);
+	overflow: hidden;
+}
+	ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+
+	}
+	li {
+		transition-duration: 0.2s;
+		list-style-type: none;
+		text-align: center;
+
+		}
+	li:hover{
+		border-radius: 10px;
+		background-color: #e8ff1cb0;
+		color: white;
+	}
+	li a 
+	{
+		transition-duration: 0.2s;
+		text-decoration: none;
+		color: rgb(1, 61, 1);
+		text-align: center;
+		display: block;
+		padding: 10px;
+		margin: 0px;
+	}
+	
+ret{
+	position: fixed;
+	
+	height: 5%;
+	width: 5%;
+}
+body
+{
+	background-image: url("background.webp");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+}
+p
+{
+	font-weight: bold;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	border-style: outset;
+	border-color: antiquewhite;
+	text-transform: capitalize;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	background: rgba(0, 128, 0, 0.7);
+	z-index: -100;
+}
+#text-center{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #ccc;
+	border-width: 10px 10px;
+	border-color: #ccc;
+	border: solid;
+	padding: 20px;
+}
+
+
+.grid-container{
+	width: 100%;
+	display: inline-grid;
+	grid-auto-flow: column;
+	/* grid-template-columns:  auto auto auto auto auto auto; */
+	overflow: auto;
+	justify-content: center;
+	gap: 1%;
+}
+#contact-me{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #ccc;
+	border-width: 10px 10px;
+	border-color: #ccc;
+	border: solid;
+	padding: 20px;
+
+}
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+
+#qr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	width: 200px;
+	animation: fade 2s;
+  }
+#qr:hover{
+	animation: rotation 2s infinite linear;
+}
+#msg{
+	width: 50%;
+}
+
+
+
+@keyframes fade {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+	}
+
+@keyframes rotation {
+from {
+	transform: rotate(0deg);
+}
+to {
+	transform: rotate(359deg);
+}
 }
