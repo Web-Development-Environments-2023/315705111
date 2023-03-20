@@ -8,7 +8,7 @@ html {
 	position: fixed;
 	width: 100%;
 	height: 38px;
-	background: rgba(235, 97, 5, 0.808);
+	background: rgba(94, 134, 243, 0.445);
 	overflow: hidden;
 }
 	ul
@@ -27,20 +27,21 @@ html {
 		}
 	li:hover{
 		border-radius: 10px;
-		background-color: #e8ff1cb0;
+		background-color: rgba(255, 127, 80, 0.603);
 		color: white;
 	}
 	li a 
 	{
 		transition-duration: 0.2s;
 		text-decoration: none;
-		color: rgb(1, 61, 1);
+		color: rgb(0, 0, 0);
 		text-align: center;
 		display: block;
 		padding: 10px;
 		margin: 0px;
 	}
 	
+
 ret{
 	position: fixed;
 	
@@ -49,26 +50,47 @@ ret{
 }
 body
 {
-	background-image: url("background.webp");
+	background-image: url("aquaduct.jpg");
 	background-color: #cccccc;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: 100% 100%;
 }
+#name-table{
+	margin-left: auto;
+	margin-right: auto;
+}
+#name{
+	text-align: center;
+	font-size: 50px;
+}
 p
 {
 	font-weight: bold;
-	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: larger;
+	/* font-family: "Lucida Console", "Courier New", monospace; */
+	font-family: "Times New Roman", Times, sans-serif;
 	text-align: center;
-	border-style: outset;
-	border-color: antiquewhite;
+	border-radius: 10px;
 	text-transform: capitalize;
 	margin-left: auto;
 	margin-right: auto;
 	width: 10%;
-	background: rgba(0, 128, 0, 0.7);
+	background: rgba(123, 177, 123, 0.507);
 	z-index: -100;
+}
+#about{
+	font-weight: normal;
+	background-color: #cccccc36;
+    text-shadow: 3px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1pxrgb(255, 255, 255)000, -1px 0 0 #ffffff;
+	border-width: 10px 10px;
+	border-color: #ccc;
+	border: solid;
+	margin: 0% 10% 10% 10%;
+	padding: 20px;
+	text-align: center;
+	
 }
 #text-center{
 	text-align: center;
@@ -109,6 +131,8 @@ div.gallery {
   
   div.gallery:hover {
 	border: 1px solid #777;
+	width: auto;
+	height: auto;
   }
   
   div.gallery img {
