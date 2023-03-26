@@ -124,7 +124,7 @@
 
       for (var i = 0; i < gallery.length; i++){
         show_image = gallery[i]
-        show_image.addEventListener("click", function(event) {
+        show_image.children[0].addEventListener("click", function(event) {
           event.preventDefault()
           img_display.children[0].src = event.target.src
           img_display.style.display = "block";
@@ -162,7 +162,7 @@
     </iframe>
     <iframe class="vid" width="420" height="315" src="https://www.youtube.com/embed/EDQ-xgzJMek">
     </iframe>
-    <iframe class="vid" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    <iframe class="vid" width="420" height="315" src="https://www.youtube.com/embed/USz9cwVSaqg">
     </iframe>
   </div>
 
