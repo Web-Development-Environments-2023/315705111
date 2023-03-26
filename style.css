@@ -125,8 +125,6 @@ div.text-center{
 }
 #answer{
 	margin: auto;
-	padding-top: 50px; /* Add space above section */
-	margin-top: -50px; /* Move section up by 50px */
 	background-color: #ccc;
 	border-width: 10px 10px;
 	border-color: #ccc;
@@ -136,29 +134,23 @@ div.text-center{
 }
 div.gallery {
 	margin: 5px;
-	border: 1px solid #ccc;
-	width: 180px;
+	width: auto;
 	transition: 1s;
 	-webkit-transition: width 1s ease, height 1s ease;
   }
-  
-  /* div.gallery:hover {
-	border: 1px solid #777;
-	width: 900px;
-	height: 600px;
-
-  } */
 
   
   div.gallery img {
 	width: 100%;
 	height: auto;
 	
+	
   }
   
   div.desc {
 	padding: 15px;
 	text-align: center;
+	text-shadow:  0px 0px 10px #FFFFFF;
   }
 
 #qr {
