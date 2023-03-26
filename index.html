@@ -1,300 +1,362 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
-<meta charset="UTF-8">
-</head>
-<body>
-<div id="menu">
-<li><a id="t-about" href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-<br>
-<br>
-<br>
-<table id="name-table">
-  <tr>
-    <th>
-      <img src="NoamLovesAgrippaDeezNutts.png" alt="Cinque Terre" width="90" height="60">
-    </th>
-    <th id="name">
-      Marcus Vipsanius Agrippa  
-    </th>
-    <th>
-      <img src="NoamLovesAgrippaDeezNutts.png" alt="Cinque Terre" width="90" height="60">
-    </th>
-  </tr>
-  <tr>
-    <th></th>
-    <th>
-      "Iustitia, Libertas et Nobilitas; ... that [all] citizens should expect justice and fair treatment before the law, ... freedom for all, ... [and] that [all] Romans should strive for excellence"
-    </th>
-    <th></th>
-  </tr>
-</table>
-<br/>
 
-<p>
-  About Me
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div id="menu">
+    <li><a id="t-about" href="#about">About Me</a></li>
+    <li><a href="#photos">My Photos</a></li>
+    <li><a href="#playlist">My Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <li><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+    <script>
+      const fixedElement = document.getElementById('menu');
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) {
+          fixedElement.style.background = 'rgba(94, 134, 243, 1)';
+        } else {
+          fixedElement.style.background = 'rgba(94, 134, 243, 0.445)';
+        }
+      });
+    </script>
+  </div>
+  <br>
+  <br>
+  <br>
+  <table id="name-table">
+    <tr>
+      <th>
+        <img src="NoamLovesAgrippaDeezNutts.png" alt="Cinque Terre" width="90" height="60">
+      </th>
+      <th id="name">
+        Marcus Vipsanius Agrippa
+      </th>
+      <th>
+        <img src="NoamLovesAgrippaDeezNutts.png" alt="Cinque Terre" width="90" height="60">
+      </th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>
+        "Iustitia, Libertas et Nobilitas; ... that [all] citizens should expect justice and fair treatment before the
+        law, ... freedom for all, ... [and] that [all] Romans should strive for excellence"
+      </th>
+      <th></th>
+    </tr>
+  </table>
+  <br />
+
+  <p>
+    About Me
   <h3 id="about">
-    "When not single handedly carrying Octavian's reign, ensuring that the senate passes proper 
-    legislation or organizing the sacred festivals, I dabble in the fine art of making quality 
-    public systems that don't double as political farces. Clean water for the people? I did that. 
-    Proper greenery in between the common gathering areas? I did that. Judicial consistency with a 
+    "When not single handedly carrying Octavian's reign, ensuring that the senate passes proper
+    legislation or organizing the sacred festivals, I dabble in the fine art of making quality
+    public systems that don't double as political farces. Clean water for the people? I did that.
+    Proper greenery in between the common gathering areas? I did that. Judicial consistency with a
     lack of corruption? I did that.
-    I am remembered as the revolutionary behind the massive improvement to Imperial Roman maritime 
-    tactics and strategy. Many enemies would underestimate my ability to organize marine actions and 
+    I am remembered as the revolutionary behind the massive improvement to Imperial Roman maritime
+    tactics and strategy. Many enemies would underestimate my ability to organize marine actions and
     naval blockades, ultimately fucking around and finding out."
   </h3>
-</p>
+  </p>
 
 
 
 
-<p id="photos">
-  my photos
-</p>
-<div class="grid-container">
-  <div class="gallery">
-    <a target="_blank" href="Agrippa realism.png">
-      <img src="Agrippa realism.png" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">An artist's rendition of Agrippa based on a bust</div>
+  <p id="photos">
+    my photos
+  </p>
+  <div class="grid-container">
+    <div class="gallery">
+      <a target="_blank" href="Agrippa realism.png">
+        <img src="Agrippa realism.png" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">An artist's rendition of Agrippa based on a bust</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="Octavian and Agrippa.webp">
+        <img src="Octavian and Agrippa.webp" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Caesar Augustus (born Gaius Octavius) left, Marcus Vipsanius Agrippa right. Image generated
+        using AI and touched up.</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="Argippa midjourny.png">
+        <img src="Argippa midjourny.png" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Marcus Vipsanius Agrippa. This image was generated for this assignment using MidJourney.</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="Agrippa meme1.png">
+        <img src="Agrippa meme1.png" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+    <div id="show_image" class="gallery">
+      <a target="_blank" href="Agrippa meme2.png">
+        <img src="Agrippa meme2.png" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="Agrippa meme3.png">
+        <img src="Agrippa meme3.png" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+
   </div>
-  <div class="gallery">
-    <a target="_blank" href="Octavian and Agrippa.webp">
-      <img src="Octavian and Agrippa.webp" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">Caesar Augustus (born Gaius Octavius) left, Marcus Vipsanius Agrippa right. Image generated using AI and touched up.</div>
-  </div>
-  <div class="gallery">
-    <a target="_blank" href="Argippa midjourny.png">
-      <img src="Argippa midjourny.png" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">Marcus Vipsanius Agrippa. This image was generated for this assignment using MidJourney.</div>
-  </div>
-  <div class="gallery">
-    <a target="_blank" href="Agrippa meme1.png">
-      <img src="Agrippa meme1.png" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-  <div class="gallery">
-    <a target="_blank" href="Agrippa meme2.png">
-      <img src="Agrippa meme2.png" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-  <div class="gallery">
-    <a target="_blank" href="Agrippa meme3.png">
-      <img src="Agrippa meme3.png" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-<p id="playlist">
-My Playlist
-</p>
-
-<br>
-<div class="grid-container">
-  <iframe class="vid" width="420" height="315"
-    src="https://www.youtube.com/embed/eJ2AvddvZIc">
-  </iframe>
-  <iframe class="vid" width="420" height="315"
-    src="https://www.youtube.com/embed/EDQ-xgzJMek">
-  </iframe>
-  <iframe class="vid" width="420" height="315"
-    src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-</div>
-
-
-<p id="like">
-give me a like
-<div class="text-center">
-  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Froughromanmemes%2F&width=450&layout&action&size&share=false&height=35&appId" width="450" height="35" style="border:none;overflow:hidden;margin: auto;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-</div>
-</p>
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-
-<p id="qrcoder">
-Scan me!
-<br>
-</p>
-
-<br>
-<div class="text-center">Don't mouse over the QR code, it gets scared.
-  <br>
-  <br>
-  <br>
-  <img id="qr" src="qr-test.png" alt="The qr thingy">
-
-</div>
-<br><br><br>
-
-
-
-
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-<p id="spa">
-Q&A
-<h3 id="answer">
-  1. Differences:<br>
-  1) In Web1.0 we only had a static web where users could only consume information that was posted by people with the resources to host websites, while in Web2.0 we had a dynamic web where users could both upload and download information and participate in communities that created content (ex. YouTube), and now we have Web3.0 which is a semantic web where computers use ML and AI to understand the meaning of data and tie it to other data in an intelligent way. <br>
-  2) Web1.0 was built for static data presentation using mainly HTML, CSS and JavaScript. Web2.0 began utilizing frameworks for more dynamic and interactive web applications, suck as  AJAX, Ruby on Rails, and PHP and also started focusing on providing APIs for better connectivity. Web3.0 focuses on even more advanced technologies like AI and ML for complex and personalized interaction, and we saw the usage of IoT and Blockchain to decentralize, autonomize and interconnect disparete parts of the web for a move away from big companies controlling the web. <br>
-  3) Web1.0 sites were mostly just text and images with simple animation, Web2.0 saw the integration of embedded videos, 2D portals and more robust website design, and Web3.0 has an enormous range of option for presentation, from integrated games in the browser to Multi-user virtual environments, to 3D applications that run in the webpage. <br><br>
-  2. Comparison:<br>
-  Use-Case: Searching for causes of stomach-ache. <br>
-  Web1.0: You are presented with a static site that will display text relating to "things that cause stomach pain", most likely information published by a large company. <br>
-  Web3.0: You are presented with an aggregation of data from multiple sources which is personalized according to your location, your age and sex, your previous search history and any other relevant information that has been fed into the search algorithm automatically. The page can contain more that just relevant information, it can contain links to online stores that sell painkillers or antacids, it can provide the link to contact your family doctor(lord knows how it got that information...) and it can extrapolate from your previous searches for fast food resteraunts and provide ads for gym memberships. <br>
-</p>
-</h3>
-
-
-<p id="contact">
-contact me
-</p>
-
-<br/>
-<br/>
-<div id="contact-me">
-  <form>
-    <label for="subject">Subject</label><br>
-    <input type="text" id="subject" name="subject"><br>
-    <label for="message">Message:</label><br>
-    <input type="text"  name="msg" id= 'msg'><br>
-    <select name="emojis" id="emojis">
-      <option value="&#128512">&#128512</option>
-      <option value="&#128513">&#128513</option>
-      <option value="&#128514">&#128514</option>
-      <option value="&#128515">&#128515</option>
-      <option value="&#128516">&#128516</option>
-      <option value="&#128517">&#128517</option>
-      <option value="&#128518">&#128518</option>
-      <option value="&#128519">&#128519</option>
-      <option value="&#128520">&#128520</option>
-      <option value="&#128521">&#128521</option>
-      <option value="&#128522">&#128522</option>
-      <option value="&#128523">&#128523</option>
-      <option value="&#128524">&#128524</option>
-    </select>
+  <div id="img_display">
+    <img src="temp" alt="Image">
+    <button id="close_image">X</button>
     <script>
-      document.getElementById("add-emoji").onclick = function() {AddEmoji()};
-      function AddEmoji(){
-        var msg = document.getElementById("msg");
-        var emoji = document.getElementById("emojis").value;
-        msg.value += emoji;
+      var img_display = document.getElementById("img_display");
+      var close_image = document.getElementById("close_image");
+      var gallery = document.getElementsByClassName("gallery");
+
+      for (var i = 0; i < gallery.length; i++){
+        show_image = gallery[i]
+        show_image.addEventListener("click", function(event) {
+          event.preventDefault()
+          img_display.children[0].src = event.target.src
+          img_display.style.display = "block";
+        });
       }
-      function sendEmail() {
-        var email = "test@test.test";
-        alert(email)
-        var subject = document.getElementById("subject").value;
-        alert(subject)
-        var body = document.getElementById("msg").value;
-        alert(body)
-        var mailtoLink = "mailto:" + email + "?subject=" + subject + "&body=" + body;
-        window.open(mailtoLink, "_self");
-      } 
+      
+
+      
+      close_image.addEventListener("click", function() {
+        img_display.style.display = "none";
+      });
+      
+      img_display.addEventListener("click", function(event) {
+        if (event.target === this) {
+          img_display.style.display = "none";
+        }
+      });
     </script>
-    <button id="add-emoji" type="button" onclick="AddEmoji()">Add Emoji</button><br>
-    <button id="send" type="button" onclick="sendEmail()">Send</button>
-  </form>
-</div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  <p id="playlist">
+    My Playlist
+  </p>
+
+  <br>
+  <div class="grid-container">
+    <iframe class="vid" width="420" height="315" src="https://www.youtube.com/embed/eJ2AvddvZIc">
+    </iframe>
+    <iframe class="vid" width="420" height="315" src="https://www.youtube.com/embed/EDQ-xgzJMek">
+    </iframe>
+    <iframe class="vid" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+  </div>
+
+
+  <p id="like">
+    give me a like
+  <div class="text-center">
+    <iframe
+      src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Froughromanmemes%2F&width=450&layout&action&size&share=false&height=35&appId"
+      width="450" height="35" style="border:none;overflow:hidden;margin: auto;" scrolling="no" frameborder="0"
+      allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  </div>
+  </p>
+
+
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+
+  <p id="qrcoder">
+    Scan me!
+    <br>
+  </p>
+
+  <br>
+  <div class="text-center">Don't mouse over the QR code, it gets scared.
+    <br>
+    <br>
+    <br>
+    <img id="qr" src="qr-test.png" alt="The qr thingy">
+
+  </div>
+  <br><br><br>
+
+
+
+
+
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+  <p id="spa">
+    Q&A
+  <h3 id="answer">
+    1. Differences:<br>
+    1) In Web1.0 we only had a static web where users could only consume information that was posted by people with the
+    resources to host websites, while in Web2.0 we had a dynamic web where users could both upload and download
+    information and participate in communities that created content (ex. YouTube), and now we have Web3.0 which is a
+    semantic web where computers use ML and AI to understand the meaning of data and tie it to other data in an
+    intelligent way. <br>
+    2) Web1.0 was built for static data presentation using mainly HTML, CSS and JavaScript. Web2.0 began utilizing
+    frameworks for more dynamic and interactive web applications, suck as AJAX, Ruby on Rails, and PHP and also started
+    focusing on providing APIs for better connectivity. Web3.0 focuses on even more advanced technologies like AI and ML
+    for complex and personalized interaction, and we saw the usage of IoT and Blockchain to decentralize, autonomize and
+    interconnect disparete parts of the web for a move away from big companies controlling the web. <br>
+    3) Web1.0 sites were mostly just text and images with simple animation, Web2.0 saw the integration of embedded
+    videos, 2D portals and more robust website design, and Web3.0 has an enormous range of option for presentation, from
+    integrated games in the browser to Multi-user virtual environments, to 3D applications that run in the webpage.
+    <br><br>
+    2. Comparison:<br>
+    Use-Case: Searching for causes of stomach-ache. <br>
+    Web1.0: You are presented with a static site that will display text relating to "things that cause stomach pain",
+    most likely information published by a large company. <br>
+    Web3.0: You are presented with an aggregation of data from multiple sources which is personalized according to your
+    location, your age and sex, your previous search history and any other relevant information that has been fed into
+    the search algorithm automatically. The page can contain more that just relevant information, it can contain links
+    to online stores that sell painkillers or antacids, it can provide the link to contact your family doctor(lord knows
+    how it got that information...) and it can extrapolate from your previous searches for fast food resteraunts and
+    provide ads for gym memberships. <br> <br>
+    This Use-Case covers all 3 Differences: static -> personalized, HTML CSS and JS -> PHP and other robust frameworks
+    needed for implementation, and text -> robust animated interactable marvels of technology. <br>
+    </p>
+  </h3>
+
+
+  <p id="contact">
+    contact me
+  </p>
+
+  <br />
+  <br />
+  <div id="contact-me">
+    <form>
+      <label for="subject">Subject</label><br>
+      <input type="text" id="subject" name="subject"><br>
+      <label for="message">Message:</label><br>
+      <input type="text" name="msg" id='msg'><br>
+      <select name="emojis" id="emojis">
+        <option value="&#128512">&#128512</option>
+        <option value="&#128513">&#128513</option>
+        <option value="&#128514">&#128514</option>
+        <option value="&#128515">&#128515</option>
+        <option value="&#128516">&#128516</option>
+        <option value="&#128517">&#128517</option>
+        <option value="&#128518">&#128518</option>
+        <option value="&#128519">&#128519</option>
+        <option value="&#128520">&#128520</option>
+        <option value="&#128521">&#128521</option>
+        <option value="&#128522">&#128522</option>
+        <option value="&#128523">&#128523</option>
+        <option value="&#128524">&#128524</option>
+      </select>
+      <script>
+        document.getElementById("add-emoji").onclick = function () { AddEmoji() };
+        function AddEmoji() {
+          var msg = document.getElementById("msg");
+          var emoji = document.getElementById("emojis").value;
+          msg.value += emoji;
+        }
+        function sendEmail() {
+          var email = "test@test.test";
+          var subject = document.getElementById("subject").value;
+          var body = document.getElementById("msg").value;
+          var mailto = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+          window.open(mailto, "_self");
+        } 
+      </script>
+      <button id="add-emoji" type="button" onclick="AddEmoji()">Add Emoji</button><br>
+      <button id="send" type="button" onclick="sendEmail()">Send</button>
+    </form>
+  </div>
+
+
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });​
+  </script>
 </body>
+
 </html>
